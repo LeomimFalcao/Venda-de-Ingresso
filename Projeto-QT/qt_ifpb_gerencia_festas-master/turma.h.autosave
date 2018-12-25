@@ -1,0 +1,37 @@
+#ifndef TURMA_H
+#define TURMA_H
+
+#include <QObject>
+#include <QVector>
+#include <numeric>
+#include <algorithm>
+
+#include "consumidor.h"
+
+class Festa : public QObject
+{
+    Q_OBJECT
+private:
+    QVector<Consumidor> festa;
+
+public:
+    explicit Festa(QObject *parent = nullptr);
+    void inserirConsumidor(const Consumidor c);
+    float mediaDaurma();
+    float maiorNota();
+    float menorNota();
+    void ordenarPorNome();
+    void ordenarPorMedia();
+
+    int size();
+    void clear();
+
+    Aluno operator[](int i);
+
+
+signals:
+
+public slots:
+};
+
+#endif // TURMA_H
