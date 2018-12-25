@@ -12,10 +12,10 @@ Visando facilitar a venda e controle de ingressos num evento/festa foi desenvolv
 
 O Software em questão, dispõe de duas facetas. Na primeira, de acordo com a imagem abaixo, consta o local para a entrada do nome do comprador, abaixo disso é possivel selecionar o tipo do ingresso que será comprado, essas informações serão inseridas na tabela por meio do botão "inserir", tabela essa que constará todas o nome, número do ingresso e tipo do ticket. Vale ressaltar que a tabela pode ser ordenada por nome ou pelo número do ingresso, de forma bem simples e intuitiva por botões dispostos ainda nessa primeira página da aplicação. 
 
-![](figuras/imagem1.jpeg)
+![](figuras/imagem1.jpg)
 
 O programa ainda apresenta uma segunda aba, totalmente destinada a apresentação de estatísticas onde é mostrado a porcentagem total de quanto o evento já foi preenchido, o(s) tipo(s) de ingressos mais adquiridos e menos adquiridos. 
 
-![](figuras/imagem2.jpeg)
+![](figuras/imagem2.jpg)
 
 Em ambas as telas, é possível ver a opção "Arquivo" no canto superior esquerdo, que possibilita salvar os dados num arquivo de texto (.txt), por meio da opção salvar e carregar esses dados no sentido inverso por meio da opção carregar disposta no mesmo local.
